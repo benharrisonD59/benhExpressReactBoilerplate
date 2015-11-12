@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'PI Sans';
+    src: url('/fonts/PILight.ttf');
+}
+
+html {
+  body {
+    display: flex;
+    padding-top: 5vh;
+    background: url('/images/background.jpg');
+    justify-content: center;
+    div#react-main-mount {
+      font-family: 'PI Sans', 'PI Sans Ext', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      padding: 20px;
+      font-size: 1.3vw;
+      color: rgb(84, 85, 86);
+      border-radius: 4px;
+      background-color: rgba(255, 255, 255, .85098);
+      div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      img {
+        margin-right: 10px;
+        height: 40px;
+      }
+      h1 {
+        margin: 0;
+        padding: 0;
+        line-height: 60px;
+      }
+    }
+  }
+}

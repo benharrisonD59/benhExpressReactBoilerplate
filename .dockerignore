@@ -1,0 +1,12 @@
+assets
+gulp-tasks
+node_modules
+.git
+Dockerfile
+gulpfile.js
+README.md
+.eslintrc
+.gitignore
+.jsbeautifyrc
+.sass-lint.yml
+.sublime-gulp.cache
